@@ -43,7 +43,7 @@ h1{
 button:hover{
     color: rgb(158, 60, 76);
 }
-@media (max-width:768px){
+@media (max-width:360px){
     h1{
     display: flex;
     justify-content: center;
