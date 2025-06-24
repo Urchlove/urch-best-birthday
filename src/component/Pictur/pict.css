@@ -43,3 +43,20 @@ button{
 button:hover{
     color: rgb(158, 60, 76);
 }
+@media (max-width:768px){
+    h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    };
+    button{
+    width: 100px;
+    height: 100px;
+    }
+    .img {
+        width: 50%;
+        height: 50%;
+    }
+    
+    
+}

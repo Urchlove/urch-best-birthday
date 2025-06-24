@@ -52,16 +52,33 @@ p{
     .main{
         align-items: center;
         margin-top: auto 10%;
-        
+        width: 50%;
+        height: 50%;
         
     }
     .right{
         position: absolute;
-        left: 20px;
+        width: 100px;
+        height: 100px;
+        left: 50px;
     }
     .left{
         position: absolute;
-        right: 20px;
+        width: 100px;
+        height: 100px;
+        right: 50px;
+    }
+    p{
+        
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+    .account{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
     }
     
 }
