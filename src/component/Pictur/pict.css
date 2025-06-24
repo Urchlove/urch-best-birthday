@@ -1,0 +1,45 @@
+
+h1{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color:rgb(121, 103, 3);
+    font-size: 70px;
+    font-weight: 600;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px rgb(184, 160, 4);
+        color:rgb(204, 178, 6) ;
+    }
+    50% {
+         text-shadow: 0 0 5px rgb(110, 96, 2);
+         color: rgb(110, 96, 2);
+    }
+    100% {
+         text-shadow: 0 0 5px rgb(85, 79, 37);
+         color: rgb(85, 78, 35);
+    }
+}
+.img{
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    border: none;
+    color: pink;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(158, 60, 76);
+}

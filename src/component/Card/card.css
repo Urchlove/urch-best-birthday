@@ -1,0 +1,67 @@
+.main{
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-top: 5%;
+    
+}
+
+p{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: rgb(245, 64, 94) ;
+    font-size: 45px;
+    font-weight: 400;
+}
+.account{
+    color: rgb(243, 13, 51);
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.account:hover {
+    color: rgb(88, 3, 17);
+}
+.right {
+    
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    border: none;
+    color: rgb(70, 18, 26);
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.left {
+    
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    border: none;
+    color: rgb(109, 22, 37);
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+@media (max-width:768px){
+
+    .main{
+        align-items: center;
+        margin-top: auto 10%;
+        
+        
+    }
+    .right{
+        position: absolute;
+        left: 20px;
+    }
+    .left{
+        position: absolute;
+        right: 20px;
+    }
+    
+}
