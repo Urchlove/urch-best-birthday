@@ -24,9 +24,9 @@ function Card() {
   return (
     <div>
       <div className='main'>
-      <button className='left' onClick={leftmove}>left Move</button>
+      <button className='right' onClick={leftmove}>left Move</button>
       <div className='img'><img className='imgg' src={arr[index]} /> </div>
-       <button className='right' onClick={rightmove}>Right Move</button>
+       <button className='left' onClick={rightmove}>Right Move</button>
        </div>
 
         <p>If you love me and want to wish me a happy birthday you can do that by sending some token into my account</p>
