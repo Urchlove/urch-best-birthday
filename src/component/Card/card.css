@@ -52,8 +52,8 @@ p{
     .main{
         align-items: center;
         margin-top: auto 10%;
-        width: 50%;
-        height: 50%;
+        width: 10%;
+        height: 10%;
         
     }
     .right{
@@ -61,23 +61,31 @@ p{
         width: 100px;
         height: 100px;
         left: 50px;
+        font-size: 10px;
+        font-weight: 100;
     }
     .left{
         position: absolute;
         width: 100px;
         height: 100px;
         right: 50px;
+        font-size: 10px;
+        font-weight: 100;
     }
     p{
         
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 30px;
+    font-weight: 300
     }
     .account{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 30px;
+    font-weight: 300
 
     }
     
