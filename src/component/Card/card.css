@@ -31,7 +31,7 @@ p{
     border: none;
     color: rgb(70, 18, 26);
     border-radius: 50px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -41,13 +41,13 @@ p{
     height: 100px;
     background-color: palevioletred;
     border: none;
-    color: rgb(109, 22, 37);
+    color: rgb(70, 18, 26);
     border-radius: 50px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     cursor: pointer;
 }
-@media (max-width:360px){
+@media (max-width:768px){
 
     .main{
         align-items: center;

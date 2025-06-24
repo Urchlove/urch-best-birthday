@@ -35,7 +35,7 @@ h1{
     background-color: palevioletred;
     border: none;
     color: rgb(190, 62, 83);
-    border-radius: 50px;
+    border-radius: 70px;
     font-size: 30px;
     font-weight: 600;
     cursor: pointer;
@@ -43,7 +43,7 @@ h1{
 button:hover{
     color: rgb(158, 60, 76);
 }
-@media (max-width:360px){
+@media (max-width:768px){
     h1{
     display: flex;
     justify-content: center;
@@ -54,10 +54,10 @@ button:hover{
     .play{
     width: 100px;
     height: 100px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     }
-    .img {
+    .img{
         width: 50px;
         height: 100px;
         margin-bottom: 10%;
